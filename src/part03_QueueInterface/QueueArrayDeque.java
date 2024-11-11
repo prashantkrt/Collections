@@ -1,6 +1,15 @@
 package part03_QueueInterface;
 
 import java.util.ArrayDeque;
+/* Normal Queue Behavior
+ * add() -> internally  calls addLast()
+ * offer() -> calls offerLast()
+ * poll() -> calls pollFirst()
+ * remove() -> calls removeFirst()
+ * peek() -> calls peekFirst()
+ * element() -> getFirst()
+ *
+ * */
 
 public class QueueArrayDeque {
     public static void main(String[] args) {

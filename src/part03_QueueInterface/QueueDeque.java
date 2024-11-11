@@ -5,6 +5,7 @@ public class QueueDeque {
 
 
         /*
+         *  Deque(Interface) common methods:=>
          *  ArrayDeque and LinkedList
          *  methods :
          *  addFirst() throw exception if insertion operation fails / offerFirst() true/false
