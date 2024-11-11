@@ -1,0 +1,91 @@
+Java Collections Framework
+
+├── Iterable (interface)
+│   ├── Common Methods:
+│   │   ├── iterator()
+│   ├── Collection (interface)
+│   │   ├── Common Methods:
+│   │   │   ├── size()
+│   │   │   ├── isEmpty()
+│   │   │   ├── contains()
+│   │   │   ├── add()
+│   │   │   ├── remove()
+│   │   │   ├── clear()
+│   │   │   ├── containsAll()
+│   │   │   ├── addAll()
+│   │   │   ├── removeAll()
+│   │   │   ├── retainAll()
+│   │   │   ├── toArray()
+│   │   │   ├── equals()
+│   │   │   ├── hashCode()
+│   │   ├── List (interface)
+│   │   │   ├── Common Methods:
+│   │   │   │   ├── add(index, element)
+│   │   │   │   ├── get(index)
+│   │   │   │   ├── set(index, element)
+│   │   │   │   ├── remove(index)
+│   │   │   │   ├── indexOf()
+│   │   │   │   ├── lastIndexOf()
+│   │   │   │   ├── subList()
+│   │   │   ├── Unique Implementations:
+│   │   │   │   ├── ArrayList
+│   │   │   │   ├── LinkedList
+│   │   │   │   ├── Vector
+│   │   │   │   └── Stack (extends Vector)
+│   │   ├── Set (interface)
+│   │   │   ├── Common Methods:
+│   │   │   │   ├── add()
+│   │   │   │   ├── contains()
+│   │   │   │   ├── size()
+│   │   │   │   ├── remove()
+│   │   │   ├── Unique Implementations:
+│   │   │   │   ├── HashSet
+│   │   │   │   ├── LinkedHashSet
+│   │   │   ├── SortedSet (interface)
+│   │   │   │   ├── Common Methods:
+│   │   │   │   │   ├── first()
+│   │   │   │   │   ├── last()
+│   │   │   │   │   ├── comparator()
+│   │   │   │   ├── Unique Implementation:
+│   │   │   │   │   └── TreeSet
+│   │   ├── Queue (interface)
+│   │   │   ├── Common Methods:
+│   │   │   │   ├── offer()
+│   │   │   │   ├── poll()
+│   │   │   │   ├── peek()
+│   │   │   ├── Unique Implementations:
+│   │   │   │   ├── PriorityQueue
+│   │   │   │   ├── LinkedList (also implements Queue)
+│   │   │   ├── Deque (interface)
+│   │   │   │   ├── Common Methods:
+│   │   │   │   │   ├── addFirst()
+│   │   │   │   │   ├── addLast()
+│   │   │   │   │   ├── removeFirst()
+│   │   │   │   │   ├── removeLast()
+│   │   │   ├── Unique Implementations:
+│   │   │   │   ├── ArrayDeque
+│   │   │   │   ├── LinkedList (also implements Deque)
+├── Map (interface)
+│   ├── Common Methods:
+│   │   ├── put()
+│   │   ├── get()
+│   │   ├── containsKey()
+│   │   ├── containsValue()
+│   │   ├── remove()
+│   │   ├── size()
+│   │   ├── isEmpty()
+│   │   ├── clear()
+│   │   ├── keySet()
+│   │   ├── values()
+│   │   ├── entrySet()
+│   ├── Unique Implementations:
+│   │   ├── HashMap
+│   │   ├── LinkedHashMap
+│   │   ├── SortedMap (interface)
+│   │   │   ├── Common Methods:
+│   │   │   │   ├── firstKey()
+│   │   │   │   ├── lastKey()
+│   │   │   │   ├── headMap()
+│   │   │   │   ├── tailMap()
+│   │   │   ├── Unique Implementation:
+│   │   │   │   └── TreeMap
