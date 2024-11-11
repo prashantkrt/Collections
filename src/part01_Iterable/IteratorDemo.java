@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/*
+*  Provides the iterator() method, which returns an Iterator object that can be used to traverse through the collection of elements.
+*  The Iterator allows you to iterate over the collection, and it has methods like hasNext(), next(), and remove().
+*
+*
+* */
+
 // java 1.5 Iterable interface
 public class IteratorDemo {
     public static void main(String[] args) {
@@ -57,6 +64,7 @@ Java Collections Framework
 ├── Map (interface)
 │   ├── HashMap
 │   ├── LinkedHashMap
+│   ├── HashTable
 │   └── SortedMap (interface)
 │       └── TreeMap
 

@@ -18,3 +18,33 @@ public class MaxPriorityQueue {
         }
     }
 }
+/*
+
+Java Collections Framework
+
+├── Iterable (interface)
+│   ├── Collection (interface)
+│   │   ├── List (interface)
+│   │   │   ├── ArrayList
+│   │   │   ├── LinkedList
+│   │   │   ├── Vector
+│   │   │       └── Stack
+│   │   ├── Set (interface)
+│   │   │   ├── HashSet
+│   │   │   ├── LinkedHashSet
+│   │   │   └── SortedSet (interface)
+│   │   │       └── TreeSet
+│   │   └── Queue (interface)
+│   │       ├── PriorityQueue
+│   │       ├── LinkedList (also implements Queue)
+│   │       └── Deque (interface)
+│   │           ├── ArrayDeque
+│   │           └── LinkedList (also implements Deque)
+├── Map (interface)
+│   ├── HashMap
+│   ├── LinkedHashMap
+│   ├── HashTable
+│   └── SortedMap (interface)
+│       └── TreeMap
+
+*/
