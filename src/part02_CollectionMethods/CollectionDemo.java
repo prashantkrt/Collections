@@ -68,3 +68,43 @@ public class CollectionDemo {
 
     }
 }
+/*
+
+Java Collections Framework
+
+├── Iterable (interface)
+│   └── Collection (interface)
+│       ├── List (interface)
+│       │   ├── ArrayList
+│       │   ├── LinkedList
+│       │   ├── Vector
+│       │   │   └── Stack
+│       │
+|       ├── Set (interface)
+│       │   ├── HashSet
+│       │   ├── LinkedHashSet
+│       │   └── SortedSet (interface)
+│       │       └── NavigableSet (interface)
+│       │           └── TreeSet
+│       │
+|       ├── Queue (interface)
+│       │   ├── PriorityQueue
+│       │   └── Deque (interface)
+│       │       ├── ArrayDeque
+│       │       └── LinkedList (also implements Deque)
+│       │
+|       └── Map (interface) [not directly extending Collection]
+|               ├── HashMap
+│           │   └── LinkedHashMap
+│           ├── SortedMap (interface)
+│           │   └── NavigableMap (interface)
+│           │       └── TreeMap
+│           └── ConcurrentMap (interface)
+│               └── ConcurrentHashMap
+│
+└── Other Utility Classes
+    ├── Collections
+    ├── Arrays
+    ├── Collectors (Java Streams API)
+
+*/
