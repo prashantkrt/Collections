@@ -1,0 +1,103 @@
+Java Collections Framework
+
+├── Iterable (interface)
+│   ├── Collection (interface)
+│   │   ├── List (interface)
+│   │   │   ├── ArrayList
+│   │   │   │   └── Unique Methods:
+│   │   │   │       ├── add(E e)
+│   │   │   │       ├── get(int index)
+│   │   │   │       ├── remove(int index)
+│   │   │   │       ├── set(int index, E element)
+│   │   │   │       └── ensureCapacity(int minCapacity)
+│   │   │   ├── LinkedList
+│   │   │   │   └── Unique Methods:
+│   │   │   │       ├── addFirst(E e)
+│   │   │   │       ├── addLast(E e)
+│   │   │   │       ├── getFirst()
+│   │   │   │       ├── getLast()
+│   │   │   │       ├── removeFirst()
+│   │   │   │       └── removeLast()
+│   │   │   ├── Vector
+│   │   │   │   └── Unique Methods:
+│   │   │   │       ├── addElement(E obj)
+│   │   │   │       ├── elementAt(int index)
+│   │   │   │       ├── removeElement(Object obj)
+│   │   │   │       └── insertElementAt(E obj, int index)
+│   │   │   └── Stack (extends Vector)
+│   │   │       └── Unique Methods:
+│   │   │           ├── push(E item)
+│   │   │           ├── pop()
+│   │   │           └── peek()
+│   │   ├── Set (interface)
+│   │   │   ├── HashSet
+│   │   │   │   └── Unique Methods:
+│   │   │   │       ├── add(E e)
+│   │   │   │       ├── remove(Object o)
+│   │   │   │       └── contains(Object o)
+│   │   │   ├── LinkedHashSet
+│   │   │   │   └── Unique Methods:
+│   │   │   │       ├── add(E e)
+│   │   │   │       ├── remove(Object o)
+│   │   │   │       └── contains(Object o)
+│   │   │   └── SortedSet (interface)
+│   │   │       └── TreeSet (implements SortedSet)
+│   │   │           └── Unique Methods:
+│   │   │               ├── first()
+│   │   │               ├── last()
+│   │   │               ├── headSet(E toElement)
+│   │   │               ├── tailSet(E fromElement)
+│   │   │               └── subSet(E fromElement, E toElement)
+│   │   └── Queue (interface)
+│   │       ├── PriorityQueue
+│   │       │   └── Unique Methods:
+│   │       │       ├── offer(E e)
+│   │       │       ├── poll()
+│   │       │       ├── peek()
+│   │       │       └── comparator()
+│   │       ├── LinkedList (also implements Queue)
+│   │       │   └── Unique Methods:
+│   │       │       ├── offer(E e)
+│   │       │       ├── poll()
+│   │       │       ├── peek()
+│   │       │       ├── addFirst(E e)
+│   │       │       ├── addLast(E e)
+│   │       │       ├── removeFirst()
+│   │       │       └── removeLast()
+│   │       └── Deque (interface)
+│   │           ├── ArrayDeque
+│   │           │   └── Unique Methods:
+│   │           │       ├── addFirst(E e)
+│   │           │       ├── addLast(E e)
+│   │           │       ├── removeFirst()
+│   │           │       ├── removeLast()
+│   │           │       ├── peekFirst()
+│   │           │       └── peekLast()
+│   │           └── LinkedList (also implements Deque)
+│   │               └── Unique Methods:
+│   │                   ├── addFirst(E e)
+│   │                   ├── addLast(E e)
+│   │                   ├── removeFirst()
+│   │                   ├── removeLast()
+│   │                   └── peekFirst()
+├── Map (interface)
+│   ├── HashMap
+│   │   └── Unique Methods:
+│   │       ├── put(K key, V value)
+│   │       ├── get(Object key)
+│   │       ├── remove(Object key)
+│   │       └── containsKey(Object key)
+│   ├── LinkedHashMap
+│   │   └── Unique Methods:
+│   │       ├── put(K key, V value)
+│   │       ├── get(Object key)
+│   │       ├── remove(Object key)
+│   │       └── containsKey(Object key)
+│   └── SortedMap (interface)
+│       └── TreeMap
+│           └── Unique Methods:
+│               ├── firstKey()
+│               ├── lastKey()
+│               ├── headMap(K toKey)
+│               ├── tailMap(K fromKey)
+│               └── subMap(K fromKey, K toKey)
