@@ -81,7 +81,7 @@ public class CollectionMethodExamples {
 
 
        /*
-        8. addAll(Collection<? extends E> c)
+        8. addAll(Collection<? extends E> c) like Collection<? extends Animal> animals where Animal is a class
         Description: Adds all elements from the specified collection to this collection.
         Return Type: boolean
        */
