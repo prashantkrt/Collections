@@ -5,12 +5,12 @@ import java.util.Stack;
 public class StackDemo {
     public static void main(String[] args) {
         /*
-        * add() , push()
-        * remove(), pop()
-        * element(), peek()
+        *  push()
+        *  pop()
+        *  peek()
         *
-        * isEmpty()
-        * size()
+        *  isEmpty()
+        *  size()
         *
         * */
 
